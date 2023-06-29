@@ -2,7 +2,6 @@
   "name": "namaste_react",
   "version": "1.0.0",
   "description": "Learning of react started",
-  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -23,6 +22,11 @@
   },
   "homepage": "https://github.com/Adityakrmishra1/namster-react#readme",
   "devDependencies": {
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

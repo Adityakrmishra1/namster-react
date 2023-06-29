@@ -15,9 +15,9 @@
 	<div id="root">
 		<!-- <h1>Hello World!</h1> -->
 	</div>
-	<div id="hiii">
-		<h1> aditya</h1>
-	</div>
+	<!-- <div id="hiii"> -->
+	<!-- <h1> aditya</h1> -->
+	<!-- </div> -->
 	<!-- <script>
 		const heading = document.createElement("h1");
 		heading.innerHTML = "Hello World from js";
@@ -26,11 +26,17 @@
 
 	</script> -->
 
+	<!-- cdn is not preffered way to import react and react-dom  -->
+	<!-- it will take time to take since network call  -->
+	<!-- it easier to manage using npm package manager -->
 
-	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> -->
+	<!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
 
-	<script src="./app.js"></script>
+	<!-- // IMP  -->
+	<!-- // here type = "module" needs to provide otherwise it will not allow import statemnt  -->
+
+	<script type="module" src="./app.js"></script>
 
 
 
