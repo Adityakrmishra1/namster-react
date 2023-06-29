@@ -1,0 +1,28 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "Learning of react started",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adityakrmishra1/namster-react.git"
+  },
+  "keywords": [
+    "Aditya",
+    "Mishra",
+    "\"react\"",
+    "\"learning\""
+  ],
+  "author": "Aditya Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adityakrmishra1/namster-react/issues"
+  },
+  "homepage": "https://github.com/Adityakrmishra1/namster-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
