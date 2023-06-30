@@ -146,6 +146,44 @@ const titles = (<h1 className="head">Hiii bhai log</h1>);
 // JSX will not blinding run the data it will take care of the injection attack.
 // JSX sanitizes the piece of the code so malicious attacker can be prevented atuomically.
 
+// React Fragment
+// React fragments behaves as a empty tags.
+
+const ReactFragmentExample = () => {
+	return (<React.Fragment>
+		<div id="container">
+			<h1>Aditya k</h1>
+		</div>
+		<div id="container-2">
+			<h1>Mishra</h1>
+		</div >
+	</React.Fragment>);
+};
+
+
+const ReactFragmentExample2 = () => {
+	return (<>
+		<div id="container">
+			<h1>Aditya k</h1>
+		</div>
+		<div id="container-2">
+			<h1>Mishra</h1>
+		</div >
+		<>
+			<div id="contaier2-1">
+				<h1>	kkkkk </h1>
+			</div>
+			<div id="contaier2-1">
+				<h1>	kkkkk </h1>
+			</div>
+
+
+		</>
+	</>);
+
+};
+
+
 let a = 1000;
 const HeadingComponent = () => {
 	return (<div id="container">
@@ -155,15 +193,34 @@ const HeadingComponent = () => {
 		<Title />
 		<Title></Title>
 		{Name()}
+		{structre}
 		{/* <Title /> */}
 		<h1 className="heading"> 🚀 I'm a react component guys 🚀</h1>
 		{/* <Name /> */}
+		<ReactFragmentExample />
+		<ReactFragmentExample2 />
 	</div>);
 }
 
 // if we have more than 2 element at root level just wrap it in the div
 // React Fragment 
 
+
+// JSX expression must have one root element.
+// two parent elements in JSX not allowed so JSX gives solution for it.
+// the solution to this is React Fragment.
+
+
+let structre = (
+	<div id="container">
+		<div>
+			<p>Aditya </p>
+		</div>
+		<div>
+			<p>Mishra</p>
+		</div>
+	</div>
+);
 
 
 
