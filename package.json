@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Learning of react started",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build" : "npx parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -12,8 +14,8 @@
   "keywords": [
     "Aditya",
     "Mishra",
-    "\"react\"",
-    "\"learning\""
+    "react",
+    "learning"
   ],
   "author": "Aditya Mishra",
   "license": "ISC",
@@ -28,5 +30,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
